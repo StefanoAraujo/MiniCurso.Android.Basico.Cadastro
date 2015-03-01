@@ -1,0 +1,38 @@
+package com.netcoders.clientes;
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+
+
+public class FormActivity extends ActionBarActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_form);
+	}
+
+	public void cadastrar(View botao){
+		//Pegamos o elemento de texto da tela
+		//e convertemos para EditText pois
+		//tudo que vem da tela é herança da View
+		EditText txtNome = (EditText) 
+				findViewById(R.id.editTextNome);
+		EditText txtEmail = (EditText)
+				findViewById(R.id.editTextEmail);
+		EditText txtTel = (EditText)
+				findViewById(R.id.editTextTel);
+		
+		if(!validar(txtNome.getText().toString())){
+			
+		}
+	}
+
+	private boolean validar(String texto){
+		return (texto != null || texto.length() > 0);
+	}
+}

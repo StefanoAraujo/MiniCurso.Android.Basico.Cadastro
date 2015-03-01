@@ -1,0 +1,7 @@
+INDEX VERSION 1.126+E:\Mundo Compilado\GitHub\MiniCurso.Android.Basico.Reprise2\MiniCurso.Android.Basico\.metadata\.plugins\org.eclipse.jdt.core
+3033830990.index
+3136378195.index
+3822591840.index
+1284074322.index
+3200588836.index
+1603092280.index
